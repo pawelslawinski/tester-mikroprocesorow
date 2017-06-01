@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tester Mikroprocesorow: Dokumentacja pliku programator.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Tester Mikroprocesorow
+   &#160;<span id="projectnumber">1.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_934f46a345653ef2b3014a1b37a162c1.html">G:</a></li><li class="navelem"><a class="el" href="dir_1e55e4cc825ca90a77dc552eddcfb397.html">POS</a></li><li class="navelem"><a class="el" href="dir_c2ca22077b9924b0cc5c708b219b4936.html">02_PWM</a></li><li class="navelem"><a class="el" href="dir_a4a3e29e0d9b79f7dfbb5f56167d62f6.html">SW4STM32</a></li><li class="navelem"><a class="el" href="dir_84928090c87c8cbf41aa16f391585c71.html">02_PWM Configuration</a></li><li class="navelem"><a class="el" href="dir_7c24db78e9d6cde04b4a1c744f7d7ff7.html">Application</a></li><li class="navelem"><a class="el" href="dir_d091e901ffd86eba2aa71b260d9b17c6.html">User</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#enum-members">Wyliczenia</a> &#124;
+<a href="#func-members">Funkcje</a> &#124;
+<a href="#var-members">Zmienne</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku programator.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Deklracje funkcji programatora i niezbędnych zmiennych.  
+<a href="#details">Więcej...</a></p>
+
+<p><a href="programator_8h_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Wyliczenia</h2></td></tr>
+<tr class="memitem:a5d0b3f821ed0c6ccfab11c0fe61e5029"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029">TestowanyUklad</a> { <br />
+&#160;&#160;<a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029a5ec0e8ce4c96673614190a8852261f4f">ADC</a>, 
+<a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029a98cdfee083de32117b07076e4082bf01">PortIN</a>, 
+<a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029a29433f7196a4473bd1621fa63aceacb5">PortOUT</a>, 
+<a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029a6e4206db8db6080e9a3e955c0f35c73c">Timer1</a>, 
+<br />
+&#160;&#160;<a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029a34cdefb98a3fb034eb9e1d91ecd3f9ef">Timer2</a>
+<br />
+ }<tr class="memdesc:a5d0b3f821ed0c6ccfab11c0fe61e5029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rodzaje testowanych układów.  <a href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029">Więcej...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a5d0b3f821ed0c6ccfab11c0fe61e5029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:adfedcd0d89c94a3b6e292d6ac6f7a8bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="programator_8h.html#adfedcd0d89c94a3b6e292d6ac6f7a8bb">Zaprogramuj</a> (enum <a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029">TestowanyUklad</a> uklad)</td></tr>
+<tr class="memdesc:adfedcd0d89c94a3b6e292d6ac6f7a8bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Programowanie mikroprocesora.  <a href="#adfedcd0d89c94a3b6e292d6ac6f7a8bb">Więcej...</a><br /></td></tr>
+<tr class="separator:adfedcd0d89c94a3b6e292d6ac6f7a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1a26e00f3d8ba4f40104519b82127e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="programator_8h.html#a1a1a26e00f3d8ba4f40104519b82127e">WybierzProgram</a> (enum <a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029">TestowanyUklad</a> uklad)</td></tr>
+<tr class="memdesc:a1a1a26e00f3d8ba4f40104519b82127e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wybór programu testującego.  <a href="#a1a1a26e00f3d8ba4f40104519b82127e">Więcej...</a><br /></td></tr>
+<tr class="separator:a1a1a26e00f3d8ba4f40104519b82127e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Zmienne</h2></td></tr>
+<tr class="memitem:a38d088223dad01c9117474a3fac59326"><td class="memItemLeft" align="right" valign="top"><a id="a38d088223dad01c9117474a3fac59326"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="programator_8h.html#a38d088223dad01c9117474a3fac59326">ID_programatora</a></td></tr>
+<tr class="memdesc:a38d088223dad01c9117474a3fac59326"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID wykorzystywanego programatora. <br /></td></tr>
+<tr class="separator:a38d088223dad01c9117474a3fac59326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc06540a6cd3d2ec863aa71c60ff86ce"><td class="memItemLeft" align="right" valign="top"><a id="afc06540a6cd3d2ec863aa71c60ff86ce"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="programator_8h.html#afc06540a6cd3d2ec863aa71c60ff86ce">ID_programu</a></td></tr>
+<tr class="memdesc:afc06540a6cd3d2ec863aa71c60ff86ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID wybranego programu. <br /></td></tr>
+<tr class="separator:afc06540a6cd3d2ec863aa71c60ff86ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><dl class="section author"><dt>Autor</dt><dd>Wojtek</dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000006">Błąd:</a></b></dt><dd>Brak. </dd></dl>
+</div><h2 class="groupheader">Dokumentacja typów wyliczanych</h2>
+<a id="a5d0b3f821ed0c6ccfab11c0fe61e5029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d0b3f821ed0c6ccfab11c0fe61e5029">&#9670;&nbsp;</a></span>TestowanyUklad</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029">TestowanyUklad</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Określa możliwe do przetestowania układy mikroprocesora. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Wartości wyliczeń</th></tr><tr><td class="fieldname"><a id="a5d0b3f821ed0c6ccfab11c0fe61e5029a5ec0e8ce4c96673614190a8852261f4f"></a>ADC&#160;</td><td class="fielddoc"><p>Przetwornik A/C. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5d0b3f821ed0c6ccfab11c0fe61e5029a98cdfee083de32117b07076e4082bf01"></a>PortIN&#160;</td><td class="fielddoc"><p>Porty wejściowe. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5d0b3f821ed0c6ccfab11c0fe61e5029a29433f7196a4473bd1621fa63aceacb5"></a>PortOUT&#160;</td><td class="fielddoc"><p>Porty wyjściowe. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5d0b3f821ed0c6ccfab11c0fe61e5029a6e4206db8db6080e9a3e955c0f35c73c"></a>Timer1&#160;</td><td class="fielddoc"><p>Timer 1. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5d0b3f821ed0c6ccfab11c0fe61e5029a34cdefb98a3fb034eb9e1d91ecd3f9ef"></a>Timer2&#160;</td><td class="fielddoc"><p>Timer 2. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="a1a1a26e00f3d8ba4f40104519b82127e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1a26e00f3d8ba4f40104519b82127e">&#9670;&nbsp;</a></span>WybierzProgram()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int WybierzProgram </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029">TestowanyUklad</a>&#160;</td>
+          <td class="paramname"><em>uklad</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Program wybierany jest na podstawie testowanego układu mikroprocesora oraz samego mikroprocesora. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uklad</td><td>określa testowany układ mikroprocesora. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>zwraca id odpowiedniego programu testującego. </dd></dl>
+
+</div>
+</div>
+<a id="adfedcd0d89c94a3b6e292d6ac6f7a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfedcd0d89c94a3b6e292d6ac6f7a8bb">&#9670;&nbsp;</a></span>Zaprogramuj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zaprogramuj </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="programator_8h.html#a5d0b3f821ed0c6ccfab11c0fe61e5029">TestowanyUklad</a>&#160;</td>
+          <td class="paramname"><em>uklad</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Programowanie mikroprocesora wybranym programem.  uklad uklad okresla testowany uklad mikroprocesora. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

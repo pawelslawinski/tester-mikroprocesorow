@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tester Mikroprocesorow: Dokumentacja pliku test.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Tester Mikroprocesorow
+   &#160;<span id="projectnumber">1.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_934f46a345653ef2b3014a1b37a162c1.html">G:</a></li><li class="navelem"><a class="el" href="dir_1e55e4cc825ca90a77dc552eddcfb397.html">POS</a></li><li class="navelem"><a class="el" href="dir_c2ca22077b9924b0cc5c708b219b4936.html">02_PWM</a></li><li class="navelem"><a class="el" href="dir_a4a3e29e0d9b79f7dfbb5f56167d62f6.html">SW4STM32</a></li><li class="navelem"><a class="el" href="dir_84928090c87c8cbf41aa16f391585c71.html">02_PWM Configuration</a></li><li class="navelem"><a class="el" href="dir_7c24db78e9d6cde04b4a1c744f7d7ff7.html">Application</a></li><li class="navelem"><a class="el" href="dir_d091e901ffd86eba2aa71b260d9b17c6.html">User</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#enum-members">Wyliczenia</a> &#124;
+<a href="#func-members">Funkcje</a> &#124;
+<a href="#var-members">Zmienne</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku test.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Deklracje funkcji testujących oraz niezbędnych zmiennych.  
+<a href="#details">Więcej...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="generator_8h_source.html">generator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="programator_8h_source.html">programator.h</a>&quot;</code><br />
+</div>
+<p><a href="test_8h_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Wyliczenia</h2></td></tr>
+<tr class="memitem:af827ded329f2a72ead473b51ab52e541"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541">TypTestu</a> { <br />
+&#160;&#160;<a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541ae3040ea734dcd18af61a808e19add756">domyslny</a>, 
+<a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541a783909ca09d0cf739cbb45cd911e3d8b">podstawowy</a>, 
+<a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541ab7c17e2a002295c5a71cb84b1924e3b2">rozszerzony</a>, 
+<a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541a9c2f1124ec803ce24602f818d4f4a858">szybki</a>, 
+<br />
+&#160;&#160;<a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541a1cf43679927831295560f90aea54bc80">dokladny</a>
+<br />
+ }<tr class="memdesc:af827ded329f2a72ead473b51ab52e541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typ testu.  <a href="test_8h.html#af827ded329f2a72ead473b51ab52e541">Więcej...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:af827ded329f2a72ead473b51ab52e541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f91225b3091ff01e29020cbb6514d2f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2f">StanTestu</a> { <br />
+&#160;&#160;<a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2fa5e84a8c83a2411419acd5e96da4d8a2c">brak_danych</a>, 
+<a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2fa58d338121bed04cc27c5f99ffceea375">wybrany</a>, 
+<a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2fabfe9f4eaa8efe3b1170769da8e01eb69">rozpoczety</a>, 
+<a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2fa59d3166ec7b8f2921ddd614657107895">w_trakcie</a>, 
+<br />
+&#160;&#160;<a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2fa590c7b37adde920277a717c2108038fe">zakonczony</a>, 
+<a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2fa79023825a672481a4f4ff48cada3a4cb">bledny</a>
+<br />
+ }<tr class="memdesc:a8f91225b3091ff01e29020cbb6514d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stan testu.  <a href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2f">Więcej...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a8f91225b3091ff01e29020cbb6514d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:abdf605b68e5fa0e885e36968693d563b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#abdf605b68e5fa0e885e36968693d563b">OdczytajTypTestu</a> ()</td></tr>
+<tr class="memdesc:abdf605b68e5fa0e885e36968693d563b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Odczytuje typ wybranego testu.  <a href="#abdf605b68e5fa0e885e36968693d563b">Więcej...</a><br /></td></tr>
+<tr class="separator:abdf605b68e5fa0e885e36968693d563b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78d4e93c82ba68d8110f074f7d41a034"><td class="memItemLeft" align="right" valign="top"><a id="a78d4e93c82ba68d8110f074f7d41a034"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wyborProcesora</b> ()</td></tr>
+<tr class="separator:a78d4e93c82ba68d8110f074f7d41a034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d801ae9ef8952d23697fdee6a0d5ab1"><td class="memItemLeft" align="right" valign="top"><a id="a8d801ae9ef8952d23697fdee6a0d5ab1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PrzygotowywanieTestu</b> ()</td></tr>
+<tr class="separator:a8d801ae9ef8952d23697fdee6a0d5ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e1b6fadd89f2f2b04f7d76182669d57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#a9e1b6fadd89f2f2b04f7d76182669d57">Testuj</a> ()</td></tr>
+<tr class="memdesc:a9e1b6fadd89f2f2b04f7d76182669d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testowanie mikroprocesora.  <a href="#a9e1b6fadd89f2f2b04f7d76182669d57">Więcej...</a><br /></td></tr>
+<tr class="separator:a9e1b6fadd89f2f2b04f7d76182669d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a77c4f2c22005df7adfa713f344515"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#ac8a77c4f2c22005df7adfa713f344515">TestujADC</a> ()</td></tr>
+<tr class="memdesc:ac8a77c4f2c22005df7adfa713f344515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testowanie przetwornika A/C.  <a href="#ac8a77c4f2c22005df7adfa713f344515">Więcej...</a><br /></td></tr>
+<tr class="separator:ac8a77c4f2c22005df7adfa713f344515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cfbe6b2dd00e05c46f622feb9b9e354"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#a2cfbe6b2dd00e05c46f622feb9b9e354">TestujPortyIN</a> ()</td></tr>
+<tr class="memdesc:a2cfbe6b2dd00e05c46f622feb9b9e354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testowanie portów wejściowych.  <a href="#a2cfbe6b2dd00e05c46f622feb9b9e354">Więcej...</a><br /></td></tr>
+<tr class="separator:a2cfbe6b2dd00e05c46f622feb9b9e354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f98b3c3962bb33084e8dfe7c40ff032"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#a1f98b3c3962bb33084e8dfe7c40ff032">TestujPortyOUT</a> ()</td></tr>
+<tr class="memdesc:a1f98b3c3962bb33084e8dfe7c40ff032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testowanie portów wyjściowych.  <a href="#a1f98b3c3962bb33084e8dfe7c40ff032">Więcej...</a><br /></td></tr>
+<tr class="separator:a1f98b3c3962bb33084e8dfe7c40ff032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa630d0df7469dbbca5f833b427e735b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#aa630d0df7469dbbca5f833b427e735b4">TestujTimer</a> (int numerTimera)</td></tr>
+<tr class="memdesc:aa630d0df7469dbbca5f833b427e735b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testowanie układów czasowych.  <a href="#aa630d0df7469dbbca5f833b427e735b4">Więcej...</a><br /></td></tr>
+<tr class="separator:aa630d0df7469dbbca5f833b427e735b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Zmienne</h2></td></tr>
+<tr class="memitem:a0623955b9a0d96566f576398d2e4ca13"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2f">StanTestu</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#a0623955b9a0d96566f576398d2e4ca13">stan</a></td></tr>
+<tr class="memdesc:a0623955b9a0d96566f576398d2e4ca13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktualny stan testu.  <a href="#a0623955b9a0d96566f576398d2e4ca13">Więcej...</a><br /></td></tr>
+<tr class="separator:a0623955b9a0d96566f576398d2e4ca13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25eae5ed274e203923180ce08d84e7c2"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541">TypTestu</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#a25eae5ed274e203923180ce08d84e7c2">test</a></td></tr>
+<tr class="memdesc:a25eae5ed274e203923180ce08d84e7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wybrany typ testu.  <a href="#a25eae5ed274e203923180ce08d84e7c2">Więcej...</a><br /></td></tr>
+<tr class="separator:a25eae5ed274e203923180ce08d84e7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46064464559834e89c52b6da4716441"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#aa46064464559834e89c52b6da4716441">ID_Procesora</a></td></tr>
+<tr class="memdesc:aa46064464559834e89c52b6da4716441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wybrany procesor.  <a href="#aa46064464559834e89c52b6da4716441">Więcej...</a><br /></td></tr>
+<tr class="separator:aa46064464559834e89c52b6da4716441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2757ff9580b78acad097d1c6377240"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#aac2757ff9580b78acad097d1c6377240">postepTestu</a></td></tr>
+<tr class="memdesc:aac2757ff9580b78acad097d1c6377240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktualny postęp testu.  <a href="#aac2757ff9580b78acad097d1c6377240">Więcej...</a><br /></td></tr>
+<tr class="separator:aac2757ff9580b78acad097d1c6377240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b51bac401a6c47e967b794e529f593e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="test_8h.html#a1b51bac401a6c47e967b794e529f593e">ID_Czujnika</a> [5] = {234, 345, 456, 567, 666}</td></tr>
+<tr class="memdesc:a1b51bac401a6c47e967b794e529f593e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tablica ID czujników.  <a href="#a1b51bac401a6c47e967b794e529f593e">Więcej...</a><br /></td></tr>
+<tr class="separator:a1b51bac401a6c47e967b794e529f593e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><dl class="section author"><dt>Autor</dt><dd>Wojtek</dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000008">Błąd:</a></b></dt><dd>Brak. </dd></dl>
+</div><h2 class="groupheader">Dokumentacja typów wyliczanych</h2>
+<a id="a8f91225b3091ff01e29020cbb6514d2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f91225b3091ff01e29020cbb6514d2f">&#9670;&nbsp;</a></span>StanTestu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2f">StanTestu</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Określa dostępne stany przeprowadzanego testu. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Wartości wyliczeń</th></tr><tr><td class="fieldname"><a id="a8f91225b3091ff01e29020cbb6514d2fa5e84a8c83a2411419acd5e96da4d8a2c"></a>brak_danych&#160;</td><td class="fielddoc"><p>Jeszcze nie został wybrany żaden test do przeprowadzenia. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8f91225b3091ff01e29020cbb6514d2fa58d338121bed04cc27c5f99ffceea375"></a>wybrany&#160;</td><td class="fielddoc"><p>Test został już wybrany. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8f91225b3091ff01e29020cbb6514d2fabfe9f4eaa8efe3b1170769da8e01eb69"></a>rozpoczety&#160;</td><td class="fielddoc"><p>Test właśnie się rozpoczął </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8f91225b3091ff01e29020cbb6514d2fa59d3166ec7b8f2921ddd614657107895"></a>w_trakcie&#160;</td><td class="fielddoc"><p>Test jest wykonywany. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8f91225b3091ff01e29020cbb6514d2fa590c7b37adde920277a717c2108038fe"></a>zakonczony&#160;</td><td class="fielddoc"><p>Test został zakończony. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8f91225b3091ff01e29020cbb6514d2fa79023825a672481a4f4ff48cada3a4cb"></a>bledny&#160;</td><td class="fielddoc"><p>Podczas testu wystąpił błąd. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="af827ded329f2a72ead473b51ab52e541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af827ded329f2a72ead473b51ab52e541">&#9670;&nbsp;</a></span>TypTestu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541">TypTestu</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Określa dostępne typu testowania mikroprocesorów. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Wartości wyliczeń</th></tr><tr><td class="fieldname"><a id="af827ded329f2a72ead473b51ab52e541ae3040ea734dcd18af61a808e19add756"></a>domyslny&#160;</td><td class="fielddoc"><p>Domyślny test. </p>
+<p>Testuje tylko porty IN/OUT </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af827ded329f2a72ead473b51ab52e541a783909ca09d0cf739cbb45cd911e3d8b"></a>podstawowy&#160;</td><td class="fielddoc"><p>Podstawowy test. </p>
+<p>Testuje porty IN/OUT </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af827ded329f2a72ead473b51ab52e541ab7c17e2a002295c5a71cb84b1924e3b2"></a>rozszerzony&#160;</td><td class="fielddoc"><p>Rozszerzony test. </p>
+<p>Testuje porty IN/OUT, ADC oraz Timer1. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af827ded329f2a72ead473b51ab52e541a9c2f1124ec803ce24602f818d4f4a858"></a>szybki&#160;</td><td class="fielddoc"><p>Szybki test. </p>
+<p>Testuje porty IN/OUT i Timer1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af827ded329f2a72ead473b51ab52e541a1cf43679927831295560f90aea54bc80"></a>dokladny&#160;</td><td class="fielddoc"><p>Dokładny test. </p>
+<p>Testuje porty IN/OUT, ADC, Timer1 oraz Timer2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="abdf605b68e5fa0e885e36968693d563b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdf605b68e5fa0e885e36968693d563b">&#9670;&nbsp;</a></span>OdczytajTypTestu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OdczytajTypTestu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Odcztywany jest typ testu wybrany przez użytkownika poprzez interfejs. Następnie zmieniany jest stan testu na "wybrany". </p>
+
+</div>
+</div>
+<a id="a9e1b6fadd89f2f2b04f7d76182669d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e1b6fadd89f2f2b04f7d76182669d57">&#9670;&nbsp;</a></span>Testuj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Testuj </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mikroprocesor jest testowany wybranym wcześniej testem. </p>
+
+</div>
+</div>
+<a id="ac8a77c4f2c22005df7adfa713f344515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8a77c4f2c22005df7adfa713f344515">&#9670;&nbsp;</a></span>TestujADC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TestujADC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mikroprocesor programowany jest odpowiednim programem testującym przetwornik A/C. Sygnał pobudzający generowany jest przez ustawiony generator sygnałem sinusoidalnym. Na końcu sprawdzana jest poprawnośc otrzymanych wyników. </p><dl class="section return"><dt>Zwraca</dt><dd>1 jeśli test zakończył się sukcesem, 0 jeśli wystąpił błąd. </dd></dl>
+
+</div>
+</div>
+<a id="a2cfbe6b2dd00e05c46f622feb9b9e354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cfbe6b2dd00e05c46f622feb9b9e354">&#9670;&nbsp;</a></span>TestujPortyIN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TestujPortyIN </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mikroprocesor programowany jest odpowiednim programem testującym sprawnośc portów wejściowych. Prostokątny sygnał testujący generowany jest przez generator. Na końcu sprawdzana jest poprawnośc otrzymanych wyników. </p><dl class="section return"><dt>Zwraca</dt><dd>1 jeśli test zakończył się sukcesem, 0 jeśli wystąpił błąd. </dd></dl>
+
+</div>
+</div>
+<a id="a1f98b3c3962bb33084e8dfe7c40ff032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f98b3c3962bb33084e8dfe7c40ff032">&#9670;&nbsp;</a></span>TestujPortyOUT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TestujPortyOUT </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mikroprocesor programowany jest odpowiednim programem testującym sprawnośc portów wyjściowych. Sygnały generowane przez mikroprocesor są odczytywane przez odpowiednie czujniki. Na końcu sprawdzana jest poprawnośc otrzymanych wyników. </p><dl class="section return"><dt>Zwraca</dt><dd>1 jeśli test zakończył się sukcesem, 0 jeśli wystąpił błąd. </dd></dl>
+
+</div>
+</div>
+<a id="aa630d0df7469dbbca5f833b427e735b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa630d0df7469dbbca5f833b427e735b4">&#9670;&nbsp;</a></span>TestujTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TestujTimer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numerTimera</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mikroprocesor programowany jest odpowiednim programem testującym sprawnośc układów czasowych. Na końcu sprawdzana jest poprawnośc działania mikroprocesora. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numerTimera</td><td>numer testowanego Timera. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>1 jeśli test zakończył się sukcesem, 0 jeśli wystąpił błąd. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja zmiennych</h2>
+<a id="a1b51bac401a6c47e967b794e529f593e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b51bac401a6c47e967b794e529f593e">&#9670;&nbsp;</a></span>ID_Czujnika</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ID_Czujnika[5] = {234, 345, 456, 567, 666}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tablica przechowuje adresy wykorzystywanych czujników, które potrzebne są do komunikacji. </p>
+
+</div>
+</div>
+<a id="aa46064464559834e89c52b6da4716441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46064464559834e89c52b6da4716441">&#9670;&nbsp;</a></span>ID_Procesora</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ID_Procesora</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Zmienna określa jaki procesor wybrał użytkownik do testowania. </p>
+
+</div>
+</div>
+<a id="aac2757ff9580b78acad097d1c6377240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2757ff9580b78acad097d1c6377240">&#9670;&nbsp;</a></span>postepTestu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int postepTestu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Zmienna określa ile % testu zostało już wykonane. </p>
+
+</div>
+</div>
+<a id="a0623955b9a0d96566f576398d2e4ca13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0623955b9a0d96566f576398d2e4ca13">&#9670;&nbsp;</a></span>stan</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="test_8h.html#a8f91225b3091ff01e29020cbb6514d2f">StanTestu</a> stan</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Zmienna określa w jakim obecnie stanie znajduje się test. </p>
+
+</div>
+</div>
+<a id="a25eae5ed274e203923180ce08d84e7c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25eae5ed274e203923180ce08d84e7c2">&#9670;&nbsp;</a></span>test</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="test_8h.html#af827ded329f2a72ead473b51ab52e541">TypTestu</a> test</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Zmienna określa jaki typ testu wybrał użytkownik. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

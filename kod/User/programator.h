@@ -11,6 +11,7 @@
  *	@brief Deklracje funkcji programatora i niezbêdnych zmiennych.
  *
  *  @bug Brak.
+ *  @edit Pawel
  */
 
 #ifndef APPLICATION_USER_PROGRAMATOR_H_
@@ -29,7 +30,9 @@ enum TestowanyUklad {
 	PortIN,		/**< Porty wejœciowe */
 	PortOUT,	/**< Porty wyjœciowe */
 	Timer1,		/**< Timer 1 */
-	Timer2		/**< Timer 2 */
+	Timer2,		/**< Timer 2 */
+	Timer3,		/**< Timer 1 */
+	Timer4		/**< Timer 2 */
 };
 
 /**

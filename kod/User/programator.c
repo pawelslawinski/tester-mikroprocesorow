@@ -11,6 +11,7 @@
  *	@brief Funkcje programatora.
  *
  *  @bug Brak.
+ *  @edit Pawel
  */
 
 void Zaprogramuj(enum TestowanyUklad uklad)
@@ -41,6 +42,12 @@ int WybierzProgram(enum TestowanyUklad uklad)
 			break;
 		case Timer2:
 			x = 98;
+			break;
+		case Timer3:
+			x = 12;
+			break;
+		case Timer4:
+			x = 23;
 			break;
 	}
 
